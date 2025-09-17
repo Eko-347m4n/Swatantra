@@ -14,8 +14,8 @@ vendor/
 build/
 
 # Go module cache
-# go.mod.bak
-# go.sum.bak
+go.mod.bak
+go.sum.bak
 
 # IDEs and editors
 .idea/
