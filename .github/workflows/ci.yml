@@ -26,6 +26,7 @@ jobs:
       # Install dependencies
       - name: Download dependencies
         run: go mod tidy
+        working-directory: ${{ github.workspace }}
 
       # Build project
       - name: Build
