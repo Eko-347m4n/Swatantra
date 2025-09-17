@@ -1,0 +1,25 @@
+=============== Sep 16, 2025 (WIB) ===============
+09:26:54.507493 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:26:54.514529 db@open opening
+09:26:54.515082 version@stat F·[] S·0B[] Sc·[]
+09:26:54.518035 db@janitor F·2 G·0
+09:26:54.518127 db@open done T·3.550754ms
+=============== Sep 16, 2025 (WIB) ===============
+09:28:40.172970 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:28:40.173363 version@stat F·[] S·0B[] Sc·[]
+09:28:40.173394 db@open opening
+09:28:40.173461 journal@recovery F·1
+09:28:40.173889 journal@recovery recovering @1
+09:28:40.178909 memdb@flush created L0@2 N·3 S·733B "V|\xff..̟=,v1":"u\xeav..\x00\x00\x00,v2"
+09:28:40.179344 version@stat F·[1] S·733B[733B] Sc·[0.25]
+09:28:40.189468 db@janitor F·3 G·0
+09:28:40.190195 db@open done T·16.22323ms
+=============== Sep 16, 2025 (WIB) ===============
+09:34:21.134217 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:34:21.134657 version@stat F·[1] S·733B[733B] Sc·[0.25]
+09:34:21.134688 db@open opening
+09:34:21.134762 journal@recovery F·1
+09:34:21.135149 journal@recovery recovering @3
+09:34:21.136258 version@stat F·[1] S·733B[733B] Sc·[0.25]
+09:34:21.146093 db@janitor F·3 G·0
+09:34:21.146215 db@open done T·11.475483ms

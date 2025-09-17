@@ -1,0 +1,14 @@
+{
+  "p2p": {
+    "listenAddress": ":3000",
+    "initialPeers": []
+  },
+  "api": {
+    "listenAddress": ":4000"
+  },
+  "chain": {
+    "initialDifficulty": 10,
+    "maxBlockSize": 1048576,
+    "mempoolSize": 5000
+  }
+}
