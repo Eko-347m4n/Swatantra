@@ -97,10 +97,8 @@ Ada dua cara untuk mendapatkan image Docker Swatantra:
 
 **Opsi A (Disarankan): Tarik dari Docker Hub**
 
-Image yang sudah jadi dan siap pakai tersedia di Docker Hub. Ganti `mujaer` dengan username Docker Hub Anda jika berbeda.
-
 ```bash
-docker pull username/swatantra-node:latest
+docker pull 347m4n/swatantra-node:latest
 ```
 
 **Opsi B: Build dari Kode Sumber**
@@ -108,7 +106,7 @@ docker pull username/swatantra-node:latest
 Jika Anda memiliki kode sumber dan ingin membuat image sendiri, jalankan perintah ini dari root direktori proyek:
 
 ```bash
-docker build -t mujaer/swatantra-node .
+docker build -t 347m4n/swatantra-node .
 ```
 
 ### Langkah 2: Siapkan Direktori & Konfigurasi Lokal
@@ -131,7 +129,7 @@ Container Docker berjalan terisolasi. Agar data (blockchain, wallet, config) tid
    Gunakan image Docker untuk membuat `wallet.key` di dalam direktori data Anda.
 
    ```bash
-   docker run --rm -v "$(pwd)/swatantra-data:/data" mujaer/swatantra-node:latest create-wallet --datadir /data
+   docker run --rm -v "$(pwd)/swatantra-data:/data" 347m4n/swatantra-node:latest create-wallet --datadir /data
    ```
 
    Anda sekarang akan memiliki file `wallet.key` di dalam folder `swatantra-data`.
@@ -146,7 +144,7 @@ docker run -d \
   -p 3000:3000 \
   -p 4000:4000 \
   -v "$(pwd)/swatantra-data:/data" \
-  mujaer/swatantra-node:latest \
+  347m4n/swatantra-node:latest \
   start-node --datadir /data --config /data/config/config.json
 ```
 
